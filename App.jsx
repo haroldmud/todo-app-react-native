@@ -2,7 +2,7 @@ import { Text, View, TextInput, Image, TouchableOpacity } from 'react-native';
 import { useState } from 'react';
 
 export default function App() {
-  const [list, setList] = useState(['Meditating', 'Read book', 'Work out']);
+  const [list, setList] = useState(['Meditating', 'Read boo', 'Work out']);
   const [task, setTask] = useState('');
   const [id, setId] = useState(null)
   function addItem(){
